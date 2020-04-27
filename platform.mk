@@ -122,6 +122,7 @@ PRODUCT_COPY_FILES += \
 
 # Platform specific init
 PRODUCT_PACKAGES += \
+    init.qcom.post_boot.sh \
     init.tama \
     init.tama.pwr \
     ueventd
